@@ -218,18 +218,6 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/home/alex/projects2/pimoroni-pico/common/pimoroni_bus.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/alex/projects2/pimoroni-pico/libraries/pico_explorer/pico_explorer.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/alex/projects2/pimoroni-pico/drivers/st7789/st7789.cmake"
-		},
-		{
-			"isExternal" : true,
 			"path" : "/home/alex/.pico-sdk/tools/2.2.0/pioasm/pioasmConfigVersion.cmake"
 		},
 		{
@@ -243,6 +231,18 @@
 		{
 			"isExternal" : true,
 			"path" : "/home/alex/.pico-sdk/tools/2.2.0/pioasm/pioasmTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/alex/projects2/pimoroni-pico/common/pimoroni_bus.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/alex/projects2/pimoroni-pico/libraries/pico_explorer/pico_explorer.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/alex/projects2/pimoroni-pico/drivers/st7789/st7789.cmake"
 		},
 		{
 			"isExternal" : true,

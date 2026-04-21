@@ -52,7 +52,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 90,
+				"line" : 92,
 				"parent" : 0
 			},
 			{
@@ -70,7 +70,7 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 66,
+				"line" : 68,
 				"parent" : 0
 			},
 			{
@@ -89,82 +89,94 @@
 				"parent" : 7
 			},
 			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 265,
+				"parent" : 9
+			},
+			{
 				"command" : 8,
 				"file" : 0,
-				"line" : 50,
+				"line" : 52,
 				"parent" : 0
 			},
 			{
 				"file" : 6,
-				"parent" : 9
+				"parent" : 11
 			},
 			{
 				"command" : 8,
 				"file" : 6,
 				"line" : 2,
-				"parent" : 10
+				"parent" : 12
 			},
 			{
 				"file" : 5,
-				"parent" : 11
+				"parent" : 13
 			},
 			{
 				"command" : 7,
 				"file" : 5,
 				"line" : 7,
-				"parent" : 12
+				"parent" : 14
 			},
 			{
 				"command" : 6,
 				"file" : 4,
 				"line" : 265,
-				"parent" : 13
+				"parent" : 15
 			},
 			{
 				"command" : 8,
 				"file" : 0,
-				"line" : 58,
+				"line" : 60,
 				"parent" : 0
 			},
 			{
 				"file" : 7,
-				"parent" : 15
+				"parent" : 17
 			},
 			{
 				"command" : 7,
 				"file" : 7,
 				"line" : 8,
-				"parent" : 16
+				"parent" : 18
 			},
 			{
 				"command" : 6,
 				"file" : 4,
 				"line" : 265,
-				"parent" : 17
+				"parent" : 19
 			},
 			{
 				"command" : 10,
 				"file" : 0,
-				"line" : 45,
+				"line" : 47,
 				"parent" : 0
 			},
 			{
 				"command" : 9,
 				"file" : 8,
 				"line" : 18,
-				"parent" : 19
+				"parent" : 21
 			},
 			{
 				"command" : 11,
 				"file" : 0,
-				"line" : 46,
+				"line" : 48,
 				"parent" : 0
 			},
 			{
 				"command" : 9,
 				"file" : 8,
 				"line" : 48,
-				"parent" : 21
+				"parent" : 23
 			},
 			{
 				"command" : 9,
@@ -180,18 +192,24 @@
 			},
 			{
 				"file" : 9,
-				"parent" : 24
+				"parent" : 26
 			},
 			{
 				"command" : 12,
 				"file" : 9,
 				"line" : 55,
-				"parent" : 25
+				"parent" : 27
+			},
+			{
+				"command" : 13,
+				"file" : 4,
+				"line" : 272,
+				"parent" : 9
 			},
 			{
 				"command" : 13,
 				"file" : 0,
-				"line" : 86,
+				"line" : 88,
 				"parent" : 0
 			}
 		]
@@ -460,11 +478,11 @@
 					"define" : "PICO_ON_DEVICE=1"
 				},
 				{
-					"backtrace" : 20,
+					"backtrace" : 22,
 					"define" : "PICO_PROGRAM_NAME=\"servo_calibration\""
 				},
 				{
-					"backtrace" : 22,
+					"backtrace" : 24,
 					"define" : "PICO_PROGRAM_VERSION_STRING=\"0.1\""
 				},
 				{
@@ -476,7 +494,7 @@
 					"define" : "PICO_RP2350=1"
 				},
 				{
-					"backtrace" : 23,
+					"backtrace" : 25,
 					"define" : "PICO_TARGET_NAME=\"servo_calibration\""
 				},
 				{
@@ -487,11 +505,15 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 26,
+					"backtrace" : 28,
 					"path" : "/home/alex/projects2/pimoroni-pico"
 				},
 				{
-					"backtrace" : 27,
+					"backtrace" : 29,
+					"path" : "/home/alex/projects2/servo_calibrator/build"
+				},
+				{
+					"backtrace" : 30,
 					"path" : "/home/alex/projects2/servo_calibrator"
 				},
 				{
@@ -505,10 +527,6 @@
 				{
 					"backtrace" : 5,
 					"path" : "/home/alex/.pico-sdk/sdk/2.2.0/lib/tinyusb/src"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/alex/projects2/servo_calibrator/build"
 				},
 				{
 					"backtrace" : 5,
@@ -1126,11 +1144,11 @@
 					"define" : "PICO_ON_DEVICE=1"
 				},
 				{
-					"backtrace" : 20,
+					"backtrace" : 22,
 					"define" : "PICO_PROGRAM_NAME=\"servo_calibration\""
 				},
 				{
-					"backtrace" : 22,
+					"backtrace" : 24,
 					"define" : "PICO_PROGRAM_VERSION_STRING=\"0.1\""
 				},
 				{
@@ -1142,7 +1160,7 @@
 					"define" : "PICO_RP2350=1"
 				},
 				{
-					"backtrace" : 23,
+					"backtrace" : 25,
 					"define" : "PICO_TARGET_NAME=\"servo_calibration\""
 				},
 				{
@@ -1153,11 +1171,15 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 26,
+					"backtrace" : 28,
 					"path" : "/home/alex/projects2/pimoroni-pico"
 				},
 				{
-					"backtrace" : 27,
+					"backtrace" : 29,
+					"path" : "/home/alex/projects2/servo_calibrator/build"
+				},
+				{
+					"backtrace" : 30,
 					"path" : "/home/alex/projects2/servo_calibrator"
 				},
 				{
@@ -1171,10 +1193,6 @@
 				{
 					"backtrace" : 5,
 					"path" : "/home/alex/.pico-sdk/sdk/2.2.0/lib/tinyusb/src"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/alex/projects2/servo_calibrator/build"
 				},
 				{
 					"backtrace" : 5,
@@ -1857,11 +1875,11 @@
 					"define" : "PICO_ON_DEVICE=1"
 				},
 				{
-					"backtrace" : 20,
+					"backtrace" : 22,
 					"define" : "PICO_PROGRAM_NAME=\"servo_calibration\""
 				},
 				{
-					"backtrace" : 22,
+					"backtrace" : 24,
 					"define" : "PICO_PROGRAM_VERSION_STRING=\"0.1\""
 				},
 				{
@@ -1873,7 +1891,7 @@
 					"define" : "PICO_RP2350=1"
 				},
 				{
-					"backtrace" : 23,
+					"backtrace" : 25,
 					"define" : "PICO_TARGET_NAME=\"servo_calibration\""
 				},
 				{
@@ -1884,11 +1902,15 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 26,
+					"backtrace" : 28,
 					"path" : "/home/alex/projects2/pimoroni-pico"
 				},
 				{
-					"backtrace" : 27,
+					"backtrace" : 29,
+					"path" : "/home/alex/projects2/servo_calibrator/build"
+				},
+				{
+					"backtrace" : 30,
 					"path" : "/home/alex/projects2/servo_calibrator"
 				},
 				{
@@ -1902,10 +1924,6 @@
 				{
 					"backtrace" : 5,
 					"path" : "/home/alex/.pico-sdk/sdk/2.2.0/lib/tinyusb/src"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/alex/projects2/servo_calibrator/build"
 				},
 				{
 					"backtrace" : 5,
@@ -2274,7 +2292,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 14,
+			"backtrace" : 10,
+			"id" : "servo_calibration_quadrature_out_pio_h::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 16,
 			"id" : "st7789_st7789_parallel_pio_h::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -2290,7 +2312,7 @@
 			"id" : "pico_vector::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 18,
+			"backtrace" : 20,
 			"id" : "encoder_encoder_pio_h::@6890427a1f51a3e7e1df"
 		},
 		{

@@ -1,4 +1,5 @@
 /home/alex/projects2/servo_calibrator/build/CMakeFiles/servo_calibration.dir
+/home/alex/projects2/servo_calibrator/build/CMakeFiles/servo_calibration_quadrature_out_pio_h.dir
 /home/alex/projects2/servo_calibrator/build/CMakeFiles/st7789_st7789_parallel_pio_h.dir
 /home/alex/projects2/servo_calibrator/build/CMakeFiles/bitmap_fonts.dir
 /home/alex/projects2/servo_calibrator/build/CMakeFiles/pico_graphics.dir

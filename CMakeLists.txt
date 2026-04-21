@@ -40,6 +40,8 @@ pico_sdk_init()
 
 add_executable(${NAME} servo_cal.cpp )
 
+pico_generate_pio_header(${NAME} ${CMAKE_CURRENT_LIST_DIR}/quadrature_out.pio)
+
 #add_resource(pico_explorer_demo fox.tga)
 
 pico_set_program_name(${NAME} "servo_calibration")
