@@ -325,6 +325,7 @@ int main() {
       }
     
     angle = (float)value;
+    s.value(angle);
 
     printf("angle: %.1f\n",angle);
 
