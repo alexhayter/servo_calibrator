@@ -1,0 +1,115 @@
+{
+	"backtrace" : 8,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"pico_generate_pio_header",
+			"include"
+		],
+		"files" : 
+		[
+			"/home/alex/.pico-sdk/sdk/2.2.0/tools/CMakeLists.txt",
+			"/home/alex/projects2/pimoroni-pico/drivers/pwm/pwm_cluster.cmake",
+			"/home/alex/projects2/pimoroni-pico/drivers/servo/servo_cluster.cmake",
+			"/home/alex/projects2/pimoroni-pico/libraries/servo2040/servo2040.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 10,
+				"parent" : 2
+			},
+			{
+				"file" : 2,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 4
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 252,
+				"parent" : 7
+			}
+		]
+	},
+	"id" : "pwm_cluster_pwm_cluster_pio_h::@6890427a1f51a3e7e1df",
+	"name" : "pwm_cluster_pwm_cluster_pio_h",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 8,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/pwm_cluster_pwm_cluster_pio_h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/pwm_cluster_pwm_cluster_pio_h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/pwm_cluster.pio.h.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -4,6 +4,9 @@
 /home/alex/projects2/servo_calibrator/build/CMakeFiles/bitmap_fonts.dir
 /home/alex/projects2/servo_calibrator/build/CMakeFiles/pico_graphics.dir
 /home/alex/projects2/servo_calibrator/build/CMakeFiles/pico_vector.dir
+/home/alex/projects2/servo_calibrator/build/CMakeFiles/plasma_apa102_pio_h.dir
+/home/alex/projects2/servo_calibrator/build/CMakeFiles/plasma_ws2812_pio_h.dir
+/home/alex/projects2/servo_calibrator/build/CMakeFiles/pwm_cluster_pwm_cluster_pio_h.dir
 /home/alex/projects2/servo_calibrator/build/CMakeFiles/encoder_encoder_pio_h.dir
 /home/alex/projects2/servo_calibrator/build/CMakeFiles/edit_cache.dir
 /home/alex/projects2/servo_calibrator/build/CMakeFiles/rebuild_cache.dir

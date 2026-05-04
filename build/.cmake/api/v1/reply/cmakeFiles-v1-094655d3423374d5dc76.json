@@ -262,6 +262,30 @@
 		},
 		{
 			"isExternal" : true,
+			"path" : "/home/alex/projects2/pimoroni-pico/drivers/servo/servo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/alex/projects2/pimoroni-pico/drivers/pwm/pwm.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/alex/projects2/pimoroni-pico/libraries/servo2040/servo2040.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/alex/projects2/pimoroni-pico/drivers/plasma/plasma.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/alex/projects2/pimoroni-pico/drivers/servo/servo_cluster.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/alex/projects2/pimoroni-pico/drivers/pwm/pwm_cluster.cmake"
+		},
+		{
+			"isExternal" : true,
 			"path" : "/home/alex/projects2/pimoroni-pico/drivers/encoder/encoder.cmake"
 		},
 		{

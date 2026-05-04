@@ -11,7 +11,7 @@
 						1
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-4665d01165feaa407889.json",
+					"jsonFile" : "directory-.-Debug-995f6cf041597abd6edf.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -26,7 +26,10 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12,
+						13,
+						14
 					]
 				},
 				{
@@ -1303,7 +1306,10 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12,
+						13,
+						14
 					]
 				},
 				{
@@ -1464,7 +1470,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "encoder_encoder_pio_h::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-encoder_encoder_pio_h-Debug-fbd103487c1fe314db9f.json",
+					"jsonFile" : "target-encoder_encoder_pio_h-Debug-5f81b9263487860f538c.json",
 					"name" : "encoder_encoder_pio_h",
 					"projectIndex" : 0
 				},
@@ -1491,8 +1497,29 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "plasma_apa102_pio_h::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plasma_apa102_pio_h-Debug-f64e7bb5dade31b74512.json",
+					"name" : "plasma_apa102_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plasma_ws2812_pio_h::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plasma_ws2812_pio_h-Debug-8dc3c4bb3e71addbee4b.json",
+					"name" : "plasma_ws2812_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pwm_cluster_pwm_cluster_pio_h::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pwm_cluster_pwm_cluster_pio_h-Debug-b9c71fb80c4241d0a11a.json",
+					"name" : "pwm_cluster_pwm_cluster_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "servo_calibration::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-servo_calibration-Debug-ea3010ce42404fe0d1c7.json",
+					"jsonFile" : "target-servo_calibration-Debug-ebfa5d90bc4ba8d4c233.json",
 					"name" : "servo_calibration",
 					"projectIndex" : 0
 				},

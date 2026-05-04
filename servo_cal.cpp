@@ -11,6 +11,8 @@
 #include "pico_graphics.hpp"
 #include "pico_vector.hpp"
 #include "button.hpp"
+//#include "servo2040.hpp"
+#include "servo.hpp"
 
 using namespace pimoroni;
 using namespace encoder;
@@ -185,7 +187,26 @@ bool repeating_timer_callback(struct repeating_timer *t) {
 
   return true;
 }
-////////////////////////////////////////////////////////////////////////////////////////////////////
+///sevo variables///////////////////////////////////////////////////////////////////////////////////////////
+using namespace servo;
+
+// How many sweeps of the servo to perform
+const uint SWEEPS = 3;
+
+// The number of discrete sweep steps
+const uint STEPS = 10;
+
+// The time in milliseconds between each step of the sequence
+const uint STEPS_INTERVAL_MS = 500;
+
+// How far from zero to move the servo when sweeping
+constexpr float SWEEP_EXTENT = 90.0f;
+
+
+// Create a servo on pin 5
+Servo s(5);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 void setup() {
   stdio_init_all();
 
@@ -199,7 +220,7 @@ void setup() {
     gpio_set_dir(ENCODER_SWITCH_PIN, GPIO_IN);
     gpio_pull_down(ENCODER_SWITCH_PIN);
   }
-
+  s.init();
   //motor1.init();
   enc.init();
 
@@ -219,9 +240,29 @@ void setup() {
 }
 
 
+
 int main() {
   setup();
   //stdio_init_all();
+
+  //////////test servo_4/////////////
+  s.enable();
+  sleep_ms(2000);
+
+  // Go to min
+  s.to_min();
+  sleep_ms(2000);
+
+  // Go to max
+  s.to_max();
+  sleep_ms(2000);
+
+  // Go back to mid
+  s.to_mid();
+  sleep_ms(2000);
+////////////////////////////////////
+
+
   st7789.set_backlight(255);
 
   Pen WHITE = graphics.create_pen(255, 255, 255);

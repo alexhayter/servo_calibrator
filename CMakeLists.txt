@@ -55,8 +55,10 @@ include (libraries/pico_vector/pico_vector)
 #include(libraries/bitmap_fonts/bitmap_fonts)
 #include(drivers/st7789/st7789)
 #include(drivers/analog/analog)
-#include(drivers/as5600/as5600)#
+#include(drivers/as5600/as5600)
 #include (drivers/tca9548a/tca9548a)
+include(drivers/servo/servo)
+include(libraries/servo2040/servo2040)
 include(drivers/encoder/encoder)
 include(drivers/button/button)
 
@@ -70,7 +72,8 @@ target_link_libraries(${NAME}
     pico_explorer # <-- List libraries here!
     button
     pico_stdlib
-    #hardware_pwm
+    servo2040
+    hardware_pwm
     #hardware_i2c
     #hardware_spi
     #hardware_dma
